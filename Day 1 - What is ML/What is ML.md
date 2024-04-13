@@ -8,7 +8,7 @@ explicitly programmed.
 
 ![Machine Learning Vs Traditional Programming – Avenga](https://www.avenga.com/wp-content/uploads/2021/12/image4-1.png)
 
-| Topic                    | Traditional Programming | Machine Learning      |
+| **Topic**                   | **Traditional Programming** | **Machine Learning**      |
 |--------------------------|-------------------------|-----------------------|
 | Approach                 | Step-by-step instruction | Learning from examples|
 | Programming Style        | Explicit instructions   | Data-driven           |
