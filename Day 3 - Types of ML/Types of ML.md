@@ -42,7 +42,9 @@ Supervised learning is the types of machine learning in which machines are train
 - In regression, the goal is to predict a continuous value output based on input features.
 - Examples include predicting house prices based on features like size and location, or predicting stock prices based on historical data.
 - For example, given a radiological image, a model could predict how many more years the associated individual will be sick or healthy.
+
 <br>
+
 ### - Classification :
 
 ![](https://miro.medium.com/v2/resize:fit:504/1*kaeos8R5BmsSOcCbUN0P6Q.png)
