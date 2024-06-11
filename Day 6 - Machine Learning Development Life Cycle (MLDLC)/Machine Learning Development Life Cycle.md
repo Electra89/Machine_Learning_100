@@ -43,10 +43,12 @@ The core idea behind data preprocessing is to bring data in such a format that i
 In this stage, you analyze data, which means you try to study the relationship between input and output variables.
 
 At this stage, you need to perform. In many experiments with data, you have to extract hidden relationships from the data. This stage gives data insights by visualizing data, univariate analysis, bi-variate analysis, multi-variate analysis, outlier detection, handle imbalanced dataset
+
 ![Business analytics concept glow isometric 4 colorful graphic presentations with profit growth diagrams currency symbols vector illustration](https://img.freepik.com/free-vector/business-analytics-concept-glow-isometric-4-colorful-graphic-presentations-with-profit-growth-diagrams-currency-symbols-vector-illustration_1284-30863.jpg)
 
 ### 5. Feature Engineering and Selection
 features are the input columns. Features are Important because output is depends upon the Input (features)
+
 ![Programmer Coder concentrated at working project Developing programming and coding technologies](https://img.freepik.com/premium-vector/programmer-coder-concentrated-working-project-developing-programming-coding-technologies_569013-338.jpg)
 
 **feature selection-**
@@ -60,6 +62,7 @@ Both feature engineering & selection are crucial
 
 ### 6. Model Training, Evaluation& Selection
 Once you're sure about your data, you are ready to train the model. you try different diff. machine learning algorithm you train that algorithm by your data every algorithm
+
 ![Kids programming and creating robot at class, tiny people. Engineering for kids, learn science activities, early development classes concept. Pinkish coral bluevector isolated illustration](https://img.freepik.com/free-vector/kids-programming-creating-robot-class-tiny-people-engineering-kids-learn-science-activities-early-development-classes-concept-pinkish-coral-bluevector-isolated-illustration_335657-1490.jpg)
 
 ### 7. Model Testing
@@ -69,6 +72,8 @@ Testing the model determines the percentage accuracy of the model as per the req
 
 ### 8. Model Deployment
 In this step, we deploy the model in a real-world system.If the above-prepared model is producing an accurate result as per our requirement with acceptable speed, then we deploy the model in the real system. But before deploying the project, we will check whether it is improving its performance using the available data or not.
+
 ![Cloud services isometric composition with conceptual images of network elements storage capsules and small human characters vector illustration](https://img.freepik.com/free-vector/cloud-services-isometric-composition-with-conceptual-images-network-elements-storage-capsules-small-human-characters-vector-illustration_1284-30496.jpg)
+
 
 For deployment we can use Heroku, Amazon Web Services, Azure ,Google Cloud Platform, etc. 
