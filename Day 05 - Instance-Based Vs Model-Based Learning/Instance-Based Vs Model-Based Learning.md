@@ -11,6 +11,7 @@ In model-based learning, the training data is used to create a model that can be
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*yXSPjsFDaZyFkCtkxRXRrA.png)
 
+
 ### Advantages of Model-Based Learning
 
 1.  **Faster predictions**: Model-based learning is typically faster than instance-based learning because the model is already created and can be used to make predictions quickly.
