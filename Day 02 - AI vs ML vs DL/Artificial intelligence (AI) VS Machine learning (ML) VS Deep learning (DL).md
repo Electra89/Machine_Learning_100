@@ -16,5 +16,6 @@
 ## What is symbolic artificial intelligence?
 Symbolic artificial intelligence, also known as symbolic AI or GOFAI (Good Old-Fashioned AI), refers to the branch of AI that emphasizes the use of symbolic representation and manipulation to solve problems. It emerged as one of the earliest approaches to artificial intelligence and dominated the field during the 1950s through the 1980s.
 
+
 ## What is an Expert Systems?
 Symbolic AI reached its peak of popularity in the 1970s and 1980s with the development of expert systems. Expert systems aimed to capture human expertise in specific domains using symbolic representations of knowledge and rules. Systems like MYCIN (developed by Edward Shortliffe) or medical diagnosis and DENDRAL (developed by Joshua Lederberg and Edward Feigenbaum) for chemical analysis exemplified the capabilities of symbolic AI in practical applications.
