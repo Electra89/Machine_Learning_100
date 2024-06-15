@@ -7,6 +7,7 @@ It is set of guidelines that you need to follow which while you creating machine
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*wekWcWfEgO4RK-lOyw7jdA.png)
 
+
 ### 1. Framing the Problem
 In this stage, you decide what the problem is and how to solve it. Who is your customer? How much will it cost? How many people will be on the team? What will the end product look like? Which machine learning model will you be using? Where to deploy it? What framework will be used? From where will the date come? What will be the source of data?
 
