@@ -11,6 +11,7 @@ When you are working on a real-world problem. The data will be huge. generally i
 
 In batch learning, you take up your entire data. You train your machine learning model on an offline system. Once the model is trained, you deploy it on the server.
 
+
 ![](https://miro.medium.com/v2/resize:fit:700/1*-HJtPmbHiEAPK_35YZ3MTQ.png)
 
 ## **Problems with batch learning:-**
