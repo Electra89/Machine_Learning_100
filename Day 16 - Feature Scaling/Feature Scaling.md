@@ -14,6 +14,9 @@ The term **Z-score** comes from statistics and refers to the number of standard 
 
 $$ z = {x -  \mu  \over  \sigma} $$
 
+$$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
+
+
 Where:
 -   Z is the Z-score.
 -   X is the original data point.
