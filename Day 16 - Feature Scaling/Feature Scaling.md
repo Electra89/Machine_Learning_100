@@ -37,7 +37,8 @@ Where:
 ### Common Normalization Techniques
  - ### Min-Max Normalization
 
-	**Formula**:
+**Formula**:
+
 $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
 **Description**: Scales the data to a fixed range, usually [0, 1].
@@ -46,7 +47,8 @@ $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
 - ### Max-Abs Scaling
 
-	**Formula**:
+**Formula**:
+
 $$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
 
 **Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
@@ -55,7 +57,8 @@ $$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
 
 - ### Robust Scaling
 
-	**Formula**: 
+**Formula**: 
+
 $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 >  where IQR is the interquartile range (75th percentile - 25th percentile).
 
@@ -65,7 +68,8 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 
 - ### Mean Normalization
 
-	**Formula**:
+**Formula**:
+
 $$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
 
 **Description**: Centers the data around the mean, with values scaled between -1 and 1.
@@ -74,7 +78,7 @@ $$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
 	
 <br>
 
-#### When to Use Normalization?
+### When to Use Normalization?
 
 Normalization is particularly useful in the following scenarios:
 
@@ -82,7 +86,7 @@ Normalization is particularly useful in the following scenarios:
 2.  **Feature Scaling**: When different features have different units or scales, normalization ensures they contribute equally to the model.
 3.  **Convergence**: For gradient descent-based optimization, normalized data can lead to faster convergence and better performance.
 
-#### When Not to Use Normalization?
+### When Not to Use Normalization?
 
 -   **Tree-Based Models**: Decision trees, random forests, and gradient boosting machines do not require normalization since they are not based on distance or gradient descent.
 -   **Data with Inherent Scales**: If the data has meaningful inherent scales (e.g., counts, binary variables), normalization may not be appropriate.
