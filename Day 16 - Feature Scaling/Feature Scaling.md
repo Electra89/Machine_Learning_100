@@ -14,7 +14,7 @@ The term **Z-score** comes from statistics and refers to the number of standard 
 
 $$ z = {x -  \mu  \over  \sigma} $$
 
-$$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
+
 
 
 Where:
@@ -34,43 +34,43 @@ Where:
 -   **Interpreting Raw Values**: If the interpretation of raw values is crucial, standardization may obscure the original scale and make interpretation difficult.
 ### > Normalization  - 
 **Normalization** is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to use a common scale, without distorting differences in the ranges of values or losing information
-- ### Common Normalization Techniques
-	-   ### Min-Max Normalization
+### Common Normalization Techniques
+ - ### Min-Max Normalization
 
 	**Formula**:
-	 $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
+$$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
-	**Description**: Scales the data to a fixed range, usually [0, 1].
+**Description**: Scales the data to a fixed range, usually [0, 1].
 
-	**Use Case**: When you need a bounded range for all features, especially useful when the algorithm does not assume any distribution of the data (e.g., neural networks).
+**Use Case**: When you need a bounded range for all features, especially useful when the algorithm does not assume any distribution of the data (e.g., neural networks).
 
-	- ### Max-Abs Scaling
+- ### Max-Abs Scaling
 
 	**Formula**:
-	$$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
+$$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
 
-	**Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
+**Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
 
-	**Use Case**: Useful for data that is already **centered at zero and sparse data**, since it does not shift/center the data.
+**Use Case**: Useful for data that is already **centered at zero and sparse data**, since it does not shift/center the data.
 
-	- ### Robust Scaling
+- ### Robust Scaling
 
 	**Formula**: 
-	$$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
-	- where IQR is the interquartile range (75th percentile - 25th percentile).
+$$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
+>  where IQR is the interquartile range (75th percentile - 25th percentile).
 
-	**Description**: Scales the data according to the median and IQR, which makes it robust to outliers.
+**Description**: Scales the data according to the median and IQR, which makes it robust to outliers.
 
-	**Use Case**: When your **data contains outliers** and you want to reduce their influence.
+**Use Case**: When your **data contains outliers** and you want to reduce their influence.
 
-	- ### Mean Normalization
+- ### Mean Normalization
 
 	**Formula**:
-	$$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
+$$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
 
-	**Description**: Centers the data around the mean, with values scaled between -1 and 1.
+**Description**: Centers the data around the mean, with values scaled between -1 and 1.
 
-	**Use Case**: When you need to center the data while also scaling it, commonly used in scenarios where **zero-centered data is required.**
+**Use Case**: When you need to center the data while also scaling it, commonly used in scenarios where **zero-centered data is required.**
 	
 <br>
 
