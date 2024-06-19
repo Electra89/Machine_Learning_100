@@ -105,6 +105,7 @@ Normalization is particularly useful in the following scenarios:
 2.  **Feature Scaling**: When different features have different units or scales, normalization ensures they contribute equally to the model.
 3.  **Convergence**: For gradient descent-based optimization, normalized data can lead to faster convergence and better performance.
 
+
 ### When Not to Use Normalization?
 
 -   **Tree-Based Models**: Decision trees, random forests, and gradient boosting machines do not require normalization since they are not based on distance or gradient descent.
