@@ -23,7 +23,7 @@ Where:
 -   μ is the mean of the data.
 -   σ is the standard deviation of the data.
 
-#### When to use Standardization ?
+### When to use Standardization ?
 ![](https://miro.medium.com/v2/resize:fit:700/0*pF6aefM2Xy7r-3cH.png)
 
 - **Distance-Based Algorithms**: Algorithms like k-nearest neighbors (KNN) and support vector machines (SVM) rely on distance measurements. Standardization ensures that features contribute equally to the distance computation.
@@ -85,7 +85,7 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 **Formula**:
 
 
-$$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
+$$X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
 
 
 **Description**: Centers the data around the mean, with values scaled between -1 and 1.
