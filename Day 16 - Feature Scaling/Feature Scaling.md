@@ -59,7 +59,7 @@ $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
 **Formula**:
 
-$$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
+$$X'_i = \frac{X_i}{|X_{\text{max}}|} $$
 
 **Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
 
@@ -72,6 +72,7 @@ $$X'_i = \frac{X_i}{|X_{\text{max}}|}$$
 **Formula**: 
 
 $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
+
 >  where IQR is the interquartile range (75th percentile - 25th percentile).
 
 **Description**: Scales the data according to the median and IQR, which makes it robust to outliers.
@@ -84,7 +85,6 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 - ### Mean Normalization
 
 **Formula**:
-
 
 $$X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}} $$
 
