@@ -29,7 +29,8 @@ Where:
 - **Distance-Based Algorithms**: Algorithms like k-nearest neighbors (KNN) and support vector machines (SVM) rely on distance measurements. Standardization ensures that features contribute equally to the distance computation.
 - **Gradient Descent-Based Algorithms**: Algorithms such as linear regression, logistic regression, and neural networks benefit from standardization because it helps with faster convergence during optimization.
 <br>
-#### When Not to Use Standardization ?
+
+### When Not to Use Standardization ?
 
 -   **Tree-Based Models**: Algorithms like decision trees, random forests, and gradient boosting trees do not require standardization because they are not based on distance measurements.
 -   **Interpreting Raw Values**: If the interpretation of raw values is crucial, standardization may obscure the original scale and make interpretation difficult.
@@ -85,7 +86,7 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 **Formula**:
 
 
-$$X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
+$$X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}} $$
 
 
 **Description**: Centers the data around the mean, with values scaled between -1 and 1.
