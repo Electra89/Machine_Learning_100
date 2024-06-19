@@ -30,9 +30,12 @@ Where:
 - **Gradient Descent-Based Algorithms**: Algorithms such as linear regression, logistic regression, and neural networks benefit from standardization because it helps with faster convergence during optimization.
 <br>
 #### When Not to Use Standardization ?
+
 -   **Tree-Based Models**: Algorithms like decision trees, random forests, and gradient boosting trees do not require standardization because they are not based on distance measurements.
 -   **Interpreting Raw Values**: If the interpretation of raw values is crucial, standardization may obscure the original scale and make interpretation difficult.
+
 ### > Normalization  - 
+
 **Normalization** is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to use a common scale, without distorting differences in the ranges of values or losing information
 
 <br>
@@ -76,11 +79,14 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 
 ---
 
+
 - ### Mean Normalization
 
 **Formula**:
 
+
 $$ X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}$$
+
 
 **Description**: Centers the data around the mean, with values scaled between -1 and 1.
 
