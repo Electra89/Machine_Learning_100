@@ -59,7 +59,7 @@ $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
 **Formula**:
 
-$$X'_i = \frac{X_i}{|X_{\text{max}}|} $$
+$$ X'i = \frac{X_i}{|X_{\text{max}}|} $$
 
 **Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
 
