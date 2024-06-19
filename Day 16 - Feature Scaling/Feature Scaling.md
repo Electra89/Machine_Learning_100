@@ -49,6 +49,9 @@ Where:
 
 $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
+
+$$ X'_i = \frac{X_i}{ | X_{\text{max}}|} $$
+
 **Description**: Scales the data to a fixed range, usually [0, 1].
 
 **Use Case**: When you need a bounded range for all features, especially useful when the algorithm does not assume any distribution of the data (e.g., neural networks).
@@ -59,7 +62,9 @@ $$X' = \frac{X_i - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
 
 **Formula**:
 
-$$ X'_i = \frac{X_i}{|X_{\text{max}}|} $$
+$$ X'_ i = \frac{X_i}{|X_{\text{max}}|} $$
+
+
 
 **Description**: Scales each feature by its maximum absolute value, resulting in values in the range [-1, 1].
 
@@ -87,8 +92,10 @@ $$X'_i = \frac{X_i - \text{median}(X)}{\text{IQR}(X)} $$
 **Formula**:
 
 $$
-X'_i = \frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}
+X'_ i =  {\frac{X_i - \mu}{X_{\text{max}} - X_{\text{min}}}}
 $$
+
+
 
 
 **Description**: Centers the data around the mean, with values scaled between -1 and 1.
