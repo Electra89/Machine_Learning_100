@@ -51,7 +51,7 @@ The encoding preserves the ordinal nature of the data, which can be important fo
 
 ### > Label Encoding
 
-**Label Encoding** assigns a unique integer to each category, but it does not consider any order. It is typically used for nominal data, where the categories do not have any implicit order. For example, for a feature representing colors:
+**Label Encoding** assigns a unique integer to each category, but it does not consider any order. It is typically used for Target Values, where the categories do not have any implicit order. For example, for a feature representing colors:
 
 -   Red
 -   Blue
