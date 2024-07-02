@@ -61,15 +61,15 @@ graph TD
  
 -   **Box-Cox**: Positive data values only. n > 0 
     
-    $$
-        x_ i^ \lambda = 
-        \begin{cases} 
-        \frac{x_i^\lambda - 1}{\lambda}, & \text{if } \lambda \neq 0, \\
-        \ln (x_i), & \text{if } \lambda = 0,
-        \end{cases}
-    $$
+$$
+    x_ i^ \lambda = 
+    \begin{cases} 
+    \frac{x_i^\lambda - 1}{\lambda}, & \text{if } \lambda \neq 0, \\ \\
+    \ln (x_i), & \text{if } \lambda = 0,
+    \end{cases}
+$$
 
-     The exponent here is a variable called lambda (X) that varies over the range of **-5 to 5** and in the process of searching, we examine all values of X. Finally, we choose the optimal value (resulting in the best approximation to a normal distribution) for your variable.
+The exponent here is a variable called lambda (X) that varies over the range of **-5 to 5** and in the process of searching, we examine all values of X. Finally, we choose the optimal value (resulting in the best approximation to a normal distribution) for your variable.
 
 
 -   **Yeo-Johnson**: Can handle **both positive and negative** data values.
@@ -83,7 +83,7 @@ graph TD
         \end{cases} 
     $$   
     
-    
+
     This transformation is somewhat of an adjustment to the Box-Cox transformation, by which we can apply it to negative numbers.
 
 
