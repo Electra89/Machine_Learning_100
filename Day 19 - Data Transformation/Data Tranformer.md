@@ -84,7 +84,7 @@ graph TD
     $$
 
 
-    This transformation is somewhat of an adjustment to the Box-Cox transformation, by which we can apply it to negative numbers.
+
 
 
 ### Quantile Transformation
