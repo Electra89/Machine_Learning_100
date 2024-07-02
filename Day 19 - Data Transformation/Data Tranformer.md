@@ -74,14 +74,15 @@ graph TD
 
 -   **Yeo-Johnson**: Can handle **both positive andnegative** data values.
 
-    $$   x_ i^ \lambda =
-        \begin{cases} 
-        \frac{(x_i + 1)^\lambda - 1}{\lambda}, & \text{if } x_i \geq 0 \text{ and } \lambda \neq 0, \\ \\
-        \ln(x_ i + 1), & \text{if } x_i \geq 0 \text{ and } \lambda = 0, \\ \\
-        -\frac{-(x_i + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{if } x_i < 0 \text{ and } \lambda \neq 2, \\ \\
-        -\ln(- x_i + 1), & \text{if } x_i < 0 \text{ and } \lambda = 2,
-        \end{cases} 
-    $$
+
+$$   x_ i^ \lambda =
+    \begin{cases} 
+    \frac{(x_i + 1)^\lambda - 1}{\lambda}, & \text{if } x_i \geq 0 \text{ and } \lambda \neq 0, \\ \\
+    \ln(x_ i + 1), & \text{if } x_i \geq 0 \text{ and } \lambda = 0, \\ \\
+    -\frac{-(x_i + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{if } x_i < 0 \text{ and } \lambda \neq 2, \\ \\
+    -\ln(- x_i + 1), & \text{if } x_i < 0 \text{ and } \lambda = 2,
+    \end{cases} 
+$$
 
 
 
