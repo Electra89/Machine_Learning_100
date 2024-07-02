@@ -59,8 +59,35 @@ graph TD
 **Information**: Includes Box-Cox and Yeo-Johnson transformations to stabilize variance and make the data more Gaussian-like.
  **Use Case**:
  
--   **Box-Cox**: Positive data values only.
--   **Yeo-Johnson**: Can handle both positive and negative data values.
+-   **Box-Cox**: Positive data values only. n > 0 
+    
+    $$
+    x_ i^ \lambda = 
+    \begin{cases} 
+    \frac{x_i^\lambda - 1}{\lambda}, & \text{if } \lambda \neq 0, \\
+    \ln (x_i), & \text{if } \lambda = 0,
+    \end{cases}
+    $$
+
+     The exponent here is a variable called lambda (X) that varies over the range of **-5 to 5** and in the process of searching, we examine all values of X. Finally, we choose the optimal value (resulting in the best approximation to a normal distribution) for your variable.
+
+
+-   **Yeo-Johnson**: Can handle **both positive and negative** data values.
+
+    $$
+    x_ i^ \lambda = 
+    \begin{cases} 
+    \frac{(x_ i + 1)^\lambda - 1}{\lambda}, & \text{if } x_ i \geq 0 \text{ and } \lambda \neq 0; \\
+    \ln(x_ i + 1), & \text{if } x_ i \geq 0 \text{ and } \lambda = 0; \\
+    - \frac{-(x_ i + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{if } x_ i < 0 \text{ and } \lambda \neq 2; \\
+    -\ln(- x_ i + 1), & \text{if } x_ i < 0 \text{ and } \lambda = 2.
+    \end{cases}
+    $$
+
+    This transformation is somewhat of an adjustment to the
+    Box-Cox transformation, by which we can apply it to
+    negative numbers.
+
 
 ### Quantile Transformation
 
