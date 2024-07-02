@@ -84,7 +84,7 @@ The exponent here is a variable called lambda (X) that varies over the range of 
     $$   
     
 
-    This transformation is somewhat of an adjustment to the Box-Cox transformation, by which we can apply it to negative numbers.
+This transformation is somewhat of an adjustment to the Box-Cox transformation, by which we can apply it to negative numbers.
 
 
 
