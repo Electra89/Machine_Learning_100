@@ -74,7 +74,6 @@ graph TD
 
 -   **Yeo-Johnson**: Can handle **both positive and negative** data values.
 
-
     $$   x_ i^ \lambda =
         \begin{cases} 
         \frac{(x_i + 1)^\lambda - 1}{\lambda}, & \text{if } x_i \geq 0 \text{ and } \lambda \neq 0, \\ \\
@@ -83,6 +82,7 @@ graph TD
         -\ln(- x_i + 1), & \text{if } x_i < 0 \text{ and } \lambda = 2,
         \end{cases} 
     $$   
+    
     
     This transformation is somewhat of an adjustment to the Box-Cox transformation, by which we can apply it to negative numbers.
 
