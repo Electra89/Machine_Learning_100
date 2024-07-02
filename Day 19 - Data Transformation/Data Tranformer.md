@@ -77,10 +77,10 @@ graph TD
     $$
     x_ i^ \lambda = 
     \begin{cases} 
-    \frac{(x_ i + 1)^\lambda - 1}{\lambda}, & \text{if } x_ i \geq 0 \text{ and } \lambda \neq 0; \\
-    \ln(x_ i + 1), & \text{if } x_ i \geq 0 \text{ and } \lambda = 0; \\
-    -\frac{-(x_ i + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{if } x_ i < 0 \text{ and } \lambda \neq 2; \\
-    -\ln(- x_ i + 1), & \text{if } x_ i < 0 \text{ and } \lambda = 2.
+    \frac{(x_ i + 1)^\lambda - 1}{\lambda}, & \text{if } x_ i \geq 0 \text{ and } \lambda \neq 0, \\
+    \ln(x_ i + 1), & \text{if } x_ i \geq 0 \text{ and } \lambda = 0, \\
+    -\frac{-(x_ i + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{if } x_ i < 0 \text{ and } \lambda \neq 2, \\
+    -\ln(- x_ i + 1), & \text{if } x_ i < 0 \text{ and } \lambda = 2,
     \end{cases}
     $$
 
