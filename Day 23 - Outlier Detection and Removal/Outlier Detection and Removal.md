@@ -33,7 +33,7 @@ Outliers are data points that differ significantly from other observations in a 
     
    $${μ ± σ=68.2\%}\\
    {μ±2σ=95.4\%}\\
-{μ±3σ=99.7\% }$$
+   {μ±3σ=99.7\% }$$
 
    - Points outside these boundaries are considered outliers and can be removed.
 2.  **IQR-Based Filtering**:
