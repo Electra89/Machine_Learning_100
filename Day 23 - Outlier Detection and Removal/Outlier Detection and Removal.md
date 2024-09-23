@@ -31,9 +31,11 @@ Outliers are data points that differ significantly from other observations in a 
 
 1.  **Z-Score Treatment**: This method requires the data to be normally distributed. The Z-score indicates how many standard deviations an element is from the mean:
     
-   $${μ ± σ=68.2\%}\\
-   {μ±2σ=95.4\%}\\
-   {μ±3σ=99.7\% }$$
+   μ ± σ = 68.2%
+   <br>
+   μ ± 2σ = 95.4%
+   <br>
+   μ ± 3σ = 99.7% 
 
    - Points outside these boundaries are considered outliers and can be removed.
 2.  **IQR-Based Filtering**:
