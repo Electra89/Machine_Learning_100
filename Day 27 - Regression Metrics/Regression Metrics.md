@@ -39,9 +39,12 @@ Where:
 MSE is the average of the squared differences between the actual and predicted values. Squaring the errors ensures that large errors are penalized more than smaller ones.
 
 Formula:
+
+
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
+
 
 Where:
 
