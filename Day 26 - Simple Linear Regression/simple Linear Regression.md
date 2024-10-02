@@ -117,6 +117,8 @@ $$
 
 $$ \bar{Y} - m \bar{X} - b = 0 $$
 
+Rearranging gives: 
+
 $$ \boxed{b = \bar{Y} - m \bar{X}} $$
 
 
