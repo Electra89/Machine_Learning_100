@@ -100,9 +100,11 @@ R^2 = 1 - \frac{\text{SSR}}{\text{SSM}}
 $$
 
 Where:
+
 $$
 \text{SSR} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
+
 - **SSR** = Sum of squared differences between actual and predicted values.  
 
 $$
