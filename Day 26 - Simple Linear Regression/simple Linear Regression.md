@@ -48,6 +48,7 @@ The goal of linear regression is to determine the best values for `b0` and `b1` 
 ![](https://miro.medium.com/v2/resize:fit:640/1*iXW_mkBpC1S9tbon543GxQ.jpeg)
 
 $$Error = d_1 + d_2 + d_3  ...+ d_n$$ 
+
 $$Error = d^2_1 + d^2_2 + d^2_3  ...+ d^2_n$$
 
 #### why squared error ?
