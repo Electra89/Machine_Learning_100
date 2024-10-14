@@ -43,7 +43,7 @@ $$
 
  
 
-$$
+```math
 \begin{bmatrix}
 
 \hat{y}_1 \\
@@ -67,11 +67,11 @@ $$
 \beta_0 & \beta_1 X_{n1} & \beta_2 X_{n2} & \beta_2 X_{n3}& \cdots & \beta_m X_{nm}
 
 \end{bmatrix}
-$$
+```
 
  
 
-$$
+```math
 = \begin{bmatrix}
 
 1& X_{11} & X_{12} & X_{13}& \cdots & X_{1m} \\
@@ -97,7 +97,7 @@ $$
 \beta_m
 
 \end{bmatrix}
-$$
+```
 
  
 
@@ -114,7 +114,7 @@ $$
 
  
 
-$$
+```math
 e = \begin{bmatrix}
 
 y_1 \\
@@ -138,11 +138,11 @@ y_n
 \hat{y}_n
 
 \end{bmatrix}
-$$
+```
 
  
 
-$$
+```math
 e = \begin{bmatrix}
 
 (y_1 - \hat{y}_1 )\\
@@ -154,7 +154,7 @@ e = \begin{bmatrix}
 (y_n - \hat{y}_n)
 
 \end{bmatrix}
-$$
+```
 
  
 
@@ -178,7 +178,7 @@ $$\therefore  E = e ^T e $$
 
  
 
-$$
+```math
 E = \begin{bmatrix}
 
 (y_1 - \hat{y}_1) & (y_2 - \hat{y}_2) & \cdots &( y_n - \hat{y}_n)
@@ -196,7 +196,7 @@ E = \begin{bmatrix}
 (y_n - \hat{y}_n)
 
 \end{bmatrix}_{(n \times 1)}
-$$
+```
 
  
 
@@ -206,9 +206,7 @@ $$
 
 $$
 E = \begin{bmatrix}
-
 (y_1 - \hat{y}_1)^2 & (y_2 - \hat{y}_2)^2  & \cdots &( y_n - \hat{y}_n)^2
-
 \end{bmatrix}
 $$
 
