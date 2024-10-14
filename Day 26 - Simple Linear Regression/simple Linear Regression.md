@@ -92,7 +92,7 @@ $$
 $$
 
 $$
- \sum_{i=1}^{n} -2 (y_i - mx_i - b) \frac{\partial}{\partial b} (y_i - mx_i - b) = 0
+ \sum_{i=1}^{n} 2 (y_i - mx_i - b) \frac{\partial}{\partial b} (y_i - mx_i - b) = 0
 $$
  
  $$
