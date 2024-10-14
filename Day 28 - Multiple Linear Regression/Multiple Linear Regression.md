@@ -4,20 +4,29 @@
 
 <br>
 
-![Visualizing Ordinary Least Squares Regression in 3D | by MerelyAI | Medium](https://miro.medium.com/v2/resize:fit:1076/1*STo4xuaX_Sr4LliKLYx6Uw.gif)
+![MLR](https://miro.medium.com/v2/resize:fit:1076/1*STo4xuaX_Sr4LliKLYx6Uw.gif)
  
 <br>
 
+& \cdots
+$$
+\hat{y}= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3  \cdots + \beta_n X_n
+$$
+
+Y = Dependent variable / Target variable
+
+β0 = Intercept of the regression line
+
+β1, β2, β3, .... βn = Slope of the regression line which tells whether the line is increasing or decreasing
+
+X1, X2, X3, .... Xn = Independent variable / Predictor variable
+
+<br>
 
 $$
 \hat{y}= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3
 $$
 
- 
-
-<br>
-
- 
 
 ```math
 \begin{bmatrix}
