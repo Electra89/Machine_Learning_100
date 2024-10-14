@@ -7,9 +7,7 @@
  
 
 $$
-
 \hat{y}= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3
-
 $$
 
  
@@ -19,7 +17,6 @@ $$
  
 
 $$
-
 \begin{bmatrix}
 
 \hat{y}_1 \\
@@ -43,7 +40,6 @@ $$
 \beta_0 & \beta_1 X_{100 \times1} & \beta_2 X_{100 \times2} & \beta_3 X_{100 \times3}
 
 \end{bmatrix}
-
 $$
 
  
@@ -57,7 +53,6 @@ $$
  
 
 $$
-
 \begin{bmatrix}
 
 \hat{y}_1 \\
@@ -81,13 +76,11 @@ $$
 \beta_0 & \beta_1 X_{n1} & \beta_2 X_{n2} & \beta_2 X_{n3}& \cdots & \beta_m X_{nm}
 
 \end{bmatrix}
-
 $$
 
  
 
 $$
-
 = \begin{bmatrix}
 
 1& X_{11} & X_{12} & X_{13}& \cdots & X_{1m} \\
@@ -113,30 +106,24 @@ $$
 \beta_m
 
 \end{bmatrix}
-
 $$
 
  
 
 $$
-
 \boxed{\hat{Y} = X \beta}
-
 $$
 
 
 
 
 $$
-
 e = y - \hat{y}
-
 $$
 
  
 
 $$
-
 e = \begin{bmatrix}
 
 y_1 \\
@@ -160,13 +147,11 @@ y_n
 \hat{y}_n
 
 \end{bmatrix}
-
 $$
 
  
 
 $$
-
 e = \begin{bmatrix}
 
 (y_1 - \hat{y}_1 )\\
@@ -178,7 +163,6 @@ e = \begin{bmatrix}
 (y_n - \hat{y}_n)
 
 \end{bmatrix}
-
 $$
 
  
@@ -204,7 +188,6 @@ $$\therefore  E = e ^T e $$
  
 
 $$
-
 E = \begin{bmatrix}
 
 (y_1 - \hat{y}_1) & (y_2 - \hat{y}_2) & \cdots &( y_n - \hat{y}_n)
@@ -222,7 +205,6 @@ E = \begin{bmatrix}
 (y_n - \hat{y}_n)
 
 \end{bmatrix}_{(n \times 1)}
-
 $$
 
  
@@ -232,13 +214,11 @@ $$
  
 
 $$
-
 E = \begin{bmatrix}
 
 (y_1 - \hat{y}_1)^2 & (y_2 - \hat{y}_2)^2  & \cdots &( y_n - \hat{y}_n)^2
 
 \end{bmatrix}
-
 $$
 
  
@@ -272,9 +252,7 @@ $$ E = [( y^T- ( X \beta)^T)] \cdot( y_  -  ( X \beta)) $$
  
 
 $$
-
 E =  y^T y - \underline{y^T (X \beta)} - \underline{(X \beta)^T y} + (X \beta)^T (X \beta)
-
 $$
 
  
@@ -317,7 +295,7 @@ $$ C = C^T $$
 
  
 
-$$ (y^T_ {(1 \times n)}(X_{(n \times (m+1)} \beta)_{( (m+1) \times n })^T = y^T (X \beta) $$
+$$ (y^T_ {(1 \times n)}(X_{n \times (m+1)} \beta)_{ (m+1) \times n })^T = y^T(X \beta) $$
 
  
 
@@ -330,33 +308,25 @@ $$ (y^T_ {(1 \times n)}(X_{(n \times (m+1)} \beta)_{( (m+1) \times n })^T = y^T 
  
 
 $$
-
 E =  y^T y - \underline{y^T (X \beta)} - \underline{(X \beta)^T y} + (X \beta)^T (X \beta)
-
 $$
 
  
 
 $$
-
 E =  y^T y - \underline{2y^T (X \beta)} + \beta^T X^T  (X \beta)
-
 $$
 
  
 
 $$
-
 \frac{\partial E}{\partial \beta} = 0
-
 $$
 
  
 
 $$
-
 \frac{\partial }{\partial \beta}   [y^T y - 2y^T (X \beta) + \beta^T X^T  (X \beta)] = 0
-
 $$
 
  
@@ -370,9 +340,7 @@ $$
  
 
 $$
-
 0 - 2y^T X + \frac{\partial }{\partial \beta}(\beta^T X^T  X \beta )= 0
-
 $$
 
  
@@ -382,47 +350,35 @@ $$
  
 
 $$
-
 0 - 2y^T X +2  X^T  X \beta^T= 0
-
 $$
 
  
 
 $$
-
  2  X^T  X \beta^T = 2y^T X
-
 $$
 
  
 
 $$
-
  \beta^T = y^T X (X^T  X)^{-1}
-
 $$
 
  
 
 $$
-
  (\beta^T)^T = [y^T X (X^T  X)^{-1}]^T
-
 $$
 
  
 
 $$
-
  \beta=[(X^T  X)^{-1}]^T(y^T X)^T
-
 $$
 
  
 
 $$
-
  \boxed{\beta=(X^T  X)^{-1}X^Ty}
-
 $$
