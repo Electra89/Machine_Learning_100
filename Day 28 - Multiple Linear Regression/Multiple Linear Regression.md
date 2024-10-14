@@ -18,27 +18,16 @@ $$
 
 $$
 \begin{bmatrix}
-
 \hat{y}_1 \\
-
 \hat{y}_2 \\
-
 \vdots \\
-
 \hat{y}_{100}
-
 \end{bmatrix} =
-
 \begin{bmatrix}
-
 \beta_0  & \beta_1 X_{11} & \beta_2 X_{12} & \beta_3 X_{13} \\
-
 \beta_0 & \beta_1 X_{21} & \beta_2 X_{22} & \beta_3 X_{23} \\
-
 \vdots & \vdots & \vdots & \vdots \\
-
 \beta_0 & \beta_1 X_{100 \times1} & \beta_2 X_{100 \times2} & \beta_3 X_{100 \times3}
-
 \end{bmatrix}
 $$
 
@@ -332,9 +321,7 @@ $$
  
 
 $$
-
 \frac{\partial }{\partial \beta}(y^T y) - \frac{\partial }{\partial \beta}(2y^T (X \beta)) + \frac{\partial }{\partial \beta}(\beta^T X^T  (X \beta) )= 0
-
 $$
 
  
