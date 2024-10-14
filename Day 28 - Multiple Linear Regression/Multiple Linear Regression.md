@@ -8,7 +8,7 @@
  
 <br>
 
-& \cdots
+
 $$
 \hat{y}= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3  \cdots + \beta_n X_n
 $$
