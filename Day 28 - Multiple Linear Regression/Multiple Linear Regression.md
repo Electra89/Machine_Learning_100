@@ -255,7 +255,6 @@ $$ y^T (X \beta) = (X \beta)^T y $$
  
 
 $$\therefore y = A \\
-
 \therefore X \beta  = B  $$
 
  
