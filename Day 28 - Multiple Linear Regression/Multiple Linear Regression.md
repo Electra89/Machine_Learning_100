@@ -4,7 +4,10 @@
 
 <br>
 
+![Visualizing Ordinary Least Squares Regression in 3D | by MerelyAI | Medium](https://miro.medium.com/v2/resize:fit:1076/1*STo4xuaX_Sr4LliKLYx6Uw.gif)
  
+<br>
+
 
 $$
 \hat{y}= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3
